@@ -10,10 +10,10 @@ A bug in one of the suite's mods goes on that mod's tracker; one in the pack its
 
 ## Working on the pack
 
-The pack is a [packwiz](https://packwiz.infra.link) manifest. packwiz has no releases, so it is
-pinned by commit:
+The pack is a [packwiz](https://packwiz.infra.link) manifest. packwiz has no releases, so
+`mise.toml` pins it by commit, with the Go that builds it:
 
-    go install github.com/packwiz/packwiz@dfd8b68a4796
+    mise install
 
 - Add a mod: `packwiz cf add <slug>`. Every jar comes from CurseForge, so the export bundles none.
 - Check the manifest: `scripts/check.sh`.
