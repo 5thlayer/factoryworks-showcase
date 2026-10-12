@@ -1,4 +1,4 @@
-This is the hand-made modpack to showcase all my Factoryworks mods in one place. I have added the usual performance/QOL mods along with some well known tech mods released for Minecraft 26.1.2.
+This is the hand-made modpack to showcase all my [FactoryWorks](https://github.com/5thlayer/factoryworks) mods in one place. I have added the usual performance/QOL mods along with some well known tech mods released for Minecraft 26.1.2.
 
 ## Why?
 
