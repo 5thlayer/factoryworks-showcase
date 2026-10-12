@@ -2,6 +2,8 @@
 README.md
 scripts/
 mise.toml
+LICENSE
+publish/
 
 # Configs of mods no longer in the pack
 config/researchd-*

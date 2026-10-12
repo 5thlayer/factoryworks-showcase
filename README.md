@@ -21,3 +21,8 @@ The pack is a [packwiz](https://packwiz.infra.link) manifest. packwiz has no rel
 
 Configs ship only as `.json`, `.toml`, `.txt`, `.cfg` or `.properties`: CurseForge warns on import
 about any other file type in a modpack, so `.packwizignore` keeps the rest out.
+
+## Store page
+
+`publish/` holds the CurseForge page: `summary.txt`, `description.md`, and the icon and cover that
+`publish/make-cover.py` draws from the mods' own covers.
