@@ -11,7 +11,7 @@ FactoryWorks Showcase puts every mod of the [FactoryWorks](https://github.com/5t
 
 ## Alongside
 
-Refined Storage, Functional Storage, Industrial Contraptions, Sophisticated Backpacks, Just Dire Things and Mining Gadgets, with JEI, EMI, Jade and FTB Chunks to find your way.
+Storage, backpacks and tech mods to build factories with, and the recipe viewers, maps and quality-of-life mods to find your way. The Relations tab lists every mod in the pack.
 
 ## Bugs
 
