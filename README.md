@@ -1,9 +1,11 @@
 # FactoryWorks Showcase
 
-A CurseForge modpack for Minecraft 26.1.2 / NeoForge that puts every mod of the
-[FactoryWorks](https://github.com/5thlayer/factoryworks) suite in one world, beside the third-party
-mods chosen to play with them. It curates jars and configs and adds no content of its own
-([ADR-0131](https://github.com/5thlayer/factoryworks/blob/main/docs/adr/0131-the-showcase-returns-as-a-curated-pack-with-no-content-of-its-own.md)).
+This is the hand-made modpack to showcase all my Factoryworks mods in one place.
+I have added the usual performance/QOL mods along with some well known tech mods released for Minecraft 26.1.2.
+
+## Why?
+
+Because creating mods is fun but seeing them integrating in a real pack is even more fun!
 
 A bug in one of the suite's mods goes on that mod's tracker; one in the pack itself goes
 [here](https://github.com/5thlayer/factoryworks-showcase/issues).
