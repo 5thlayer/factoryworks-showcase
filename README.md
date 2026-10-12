@@ -28,9 +28,25 @@ about any other file type in a modpack, so `.packwizignore` keeps the rest out.
 
 ## Releasing
 
-1. Bump `version` in `pack.toml` and commit it, then run `scripts/check.sh`.
-2. Build the zip with `packwiz cf export` and upload it to CurseForge.
-3. Tag the commit the zip was built from as `v<version>` and push the tag.
+A change a player will notice adds its line under `## Unreleased` in `CHANGELOG.md` as it lands;
+the mods added, updated and removed are listed by the release itself. `scripts/changelog.py mods`
+shows that list so far.
+
+1. `scripts/release.sh <version>` from a clean `main`: it writes the version's changelog section,
+   bumps `pack.toml`, runs the check, exports the zip, commits, and tags `v<version>` with the zip's
+   sha256. It pushes and uploads nothing.
+2. `git push origin HEAD v<version>`.
+3. `scripts/upload.py <version>`: the zip goes to CurseForge, as a release, and to the tag's GitHub
+   release, with the changelog section as notes on both. `--dry-run` shows what it would send, and
+   `--site curseforge` or `--site github` retries one. The CurseForge token is the one the mods
+   upload with: `publish/upload.env` names it in 1Password, and `op` asks to be unlocked.
+
+The zip `release.sh` exports is the release: a later export never matches it byte for byte, since
+packwiz writes the mods in a different order each time. So the upload checks it against the tag's
+sha256, and the GitHub release keeps it.
+
+A version that can break a world from the one before (a mod removed, Minecraft or NeoForge moved)
+bumps the minor version; anything else is the next patch.
 
 ## Store page
 

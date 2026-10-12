@@ -1,5 +1,6 @@
 # Repo files, not pack content
 README.md
+CHANGELOG.md
 scripts/
 mise.toml
 LICENSE
