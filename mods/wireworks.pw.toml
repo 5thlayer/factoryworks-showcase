@@ -1,13 +1,13 @@
 name = "Wireworks"
-filename = "wireworks-0.5.0.jar"
+filename = "wireworks-0.6.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "966a1971d2a65706ed291307fbdf6a0aeaf8d26a"
+hash = "77f528057a49a4517e7b5a63e01d041707dd7e48"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9109693
+file-id = 9147790
 project-id = 1721198

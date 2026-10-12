@@ -7,6 +7,16 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+Every FactoryWorks mod moves to its newest release. Among what they bring:
+
+- Wireworks' Boiler turns water into steam, and its machines wear real textures in place of stand-ins, as Craftworks' Assemblers and Refiner do.
+- Craftworks' Assemblers take fluids in and out by bucket, at every tier.
+- Pipeworks' pipes and tanks fill and empty from a bucket or any other fluid item.
+- Fieldworks' Harvesters are crafted at a crafting table, and drilling mud brews from clay.
+- The FactoryWorks items share one Works tab in the creative menu.
+
+Each mod's changelog on its CurseForge page has the rest.
+
 ## 0.1.0
 
 The first version on CurseForge: the six FactoryWorks mods beside 98 others, for Minecraft 26.1.2 on

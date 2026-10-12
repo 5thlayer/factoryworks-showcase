@@ -45,8 +45,9 @@ The zip `release.sh` exports is the release: a later export never matches it byt
 packwiz writes the mods in a different order each time. So the upload checks it against the tag's
 sha256, and the GitHub release keeps it.
 
-A version that can break a world from the one before (a mod removed, Minecraft or NeoForge moved)
-bumps the minor version; anything else is the next patch.
+A version that can break a world from the one before (a mod removed, a FactoryWorks mod moved a
+minor version, which below 1.0 is a breaking change, or Minecraft or NeoForge moved) bumps the minor
+version; anything else is the next patch.
 
 ## Store page
 
