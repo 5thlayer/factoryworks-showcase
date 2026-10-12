@@ -3,6 +3,7 @@ README.md
 scripts/
 mise.toml
 LICENSE
+.github/
 publish/
 
 # Configs of mods no longer in the pack

@@ -1,0 +1,20 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Groundworks bug
+    url: https://github.com/5thlayer/groundworks/issues
+    about: A bug in Groundworks on its own
+  - name: Beltworks bug
+    url: https://github.com/5thlayer/beltworks/issues
+    about: A bug in Beltworks on its own
+  - name: Pipeworks bug
+    url: https://github.com/5thlayer/pipeworks/issues
+    about: A bug in Pipeworks on its own
+  - name: Wireworks bug
+    url: https://github.com/5thlayer/wireworks/issues
+    about: A bug in Wireworks on its own
+  - name: Craftworks bug
+    url: https://github.com/5thlayer/craftworks/issues
+    about: A bug in Craftworks on its own
+  - name: Fieldworks bug
+    url: https://github.com/5thlayer/fieldworks/issues
+    about: A bug in Fieldworks on its own

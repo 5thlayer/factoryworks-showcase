@@ -1,0 +1,35 @@
+name: Pack bug
+description: Something breaks because of the pack itself — two mods clashing, a missing dependency, a config it ships
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A bug that happens with one FactoryWorks mod on its own belongs on that mod's tracker (links below the template list). This tracker is for what the pack decides: which mods are in it, their versions, and the configs it ships.
+  - type: input
+    id: version
+    attributes:
+      label: Pack version
+      description: Shown in the CurseForge app, on the pack's profile.
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Crash report or log
+      description: Attach `crash-reports/crash-*.txt` if the game crashed, otherwise `logs/latest.log`. A link to mclo.gs works too.
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: Changes to the pack
+      description: Mods you added, removed or updated, and configs you edited. Leave empty if none.
