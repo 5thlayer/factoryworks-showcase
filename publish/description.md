@@ -1,4 +1,8 @@
-FactoryWorks Showcase puts every mod of the [FactoryWorks](https://github.com/5thlayer/factoryworks) suite in one world, beside the tech and quality-of-life mods they are made to work with. It adds no recipes or content of its own: what you play is exactly what the mods do in any pack.
+This is the hand-made modpack to showcase all my Factoryworks mods in one place. I have added the usual performance/QOL mods along with some well known tech mods released for Minecraft 26.1.2.
+
+## Why?
+
+Because creating mods is fun but seeing them integrating in a real pack is even more fun!
 
 ## The suite
 
