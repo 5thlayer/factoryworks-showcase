@@ -1,6 +1,7 @@
 # Repo files, not pack content
 README.md
 scripts/
+mise.toml
 
 # Configs of mods no longer in the pack
 config/researchd-*
