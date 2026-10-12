@@ -1,0 +1,9 @@
+#Whether new patches of each resource, and new oil fields, generate in newly explored terrain.
+[generate]
+	iron = true
+	copper = true
+	coal = true
+	stone = true
+	uranium = true
+	sulfur = true
+	oil_field = true

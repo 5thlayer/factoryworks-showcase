@@ -1,0 +1,13 @@
+name = "Easy Villagers"
+filename = "easy-villagers-neoforge-1.1.42+26.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "51ac85c4a6518f01ceb2d614d3ce9b14b642d1a5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8066810
+project-id = 400514

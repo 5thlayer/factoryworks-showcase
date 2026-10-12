@@ -1,0 +1,13 @@
+name = "Groundworks"
+filename = "groundworks-0.5.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f3b0f65e0e60dd5c9c8694468fb1f650c30f33fb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9132478
+project-id = 1717892

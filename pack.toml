@@ -1,0 +1,13 @@
+name = "FactoryWorks Showcase"
+author = "5thlayer"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "2cc11e6f5afab0641705b03a5ad7d255c61628361a8a1dd205da834724b65510"
+
+[versions]
+minecraft = "26.1.2"
+neoforge = "26.1.2.109"

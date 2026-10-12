@@ -1,0 +1,17 @@
+# Repo files, not pack content
+README.md
+scripts/
+
+# Configs of mods no longer in the pack
+config/researchd-*
+config/oritech-*
+# Per-user state, not pack behaviour (ADR-0024)
+config/jei/
+config/spark/
+config/sodium-fingerprint.json
+*.bak
+# Generated defaults in file types CurseForge warns about on import
+config/**/*.json5
+config/**/*.jexl
+config/**/*.md
+config/**/*.css

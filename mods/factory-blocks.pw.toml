@@ -1,0 +1,13 @@
+name = "Factory Blocks [Forge/Fabric/NeoForge]"
+filename = "factory_blocks-neoforge-1.4.2+mc26.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cca501f12578dfd41df0180a35bd4e714ef848d8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8177196
+project-id = 640001

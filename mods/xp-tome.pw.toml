@@ -1,0 +1,13 @@
+name = "XP Tome"
+filename = "xptome-neoforge-26.1.2-2.5.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c0a079fca74baed7bb5c3a1429548d864f47826a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8007017
+project-id = 344787

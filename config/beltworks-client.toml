@@ -1,0 +1,10 @@
+#Whether a raised line shows the supports that hold it up. They are only drawn, and never limit a line.
+showSupports = true
+#How many blocks apart a straight floating line, or a slope mid-line, shows its supports.
+# Default: 8
+# Range: 1 ~ 256
+supportSpacing = 8
+#How many blocks a support's leg reaches down before it runs on out of sight.
+# Default: 64
+# Range: 1 ~ 384
+supportReach = 64
