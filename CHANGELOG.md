@@ -7,6 +7,8 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.2.0
+
 Every FactoryWorks mod moves to its newest release. Among what they bring:
 
 - Wireworks' Boiler turns water into steam, and its machines wear real textures in place of stand-ins, the Steam Engine a flywheel that turns while it burns, as Craftworks' Assemblers and Refiner do.
@@ -16,6 +18,15 @@ Every FactoryWorks mod moves to its newest release. Among what they bring:
 - The FactoryWorks items share one Works tab in the creative menu.
 
 Each mod's changelog on its CurseForge page has the rest.
+
+### Mods
+
+- Updated Beltworks: `beltworks-0.4.1.jar` → `beltworks-0.4.3.jar`
+- Updated Fieldworks: `fieldworks-0.2.0.jar` → `fieldworks-0.2.4.jar`
+- Updated Groundworks: `groundworks-0.5.7.jar` → `groundworks-0.5.11.jar`
+- Updated kc00l's Craftworks: `craftworks-0.7.0.jar` → `craftworks-0.9.1.jar`
+- Updated kc00l's Pipeworks: `pipeworks-0.2.0.jar` → `pipeworks-0.3.1.jar`
+- Updated Wireworks: `wireworks-0.5.0.jar` → `wireworks-0.6.2.jar`
 
 ## 0.1.0
 
