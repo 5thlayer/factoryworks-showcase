@@ -6,6 +6,7 @@ mise.toml
 LICENSE
 .github/
 publish/
+drafts/
 
 # Configs of mods no longer in the pack
 config/researchd-*
