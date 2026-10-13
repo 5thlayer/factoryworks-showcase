@@ -9,7 +9,7 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 Every FactoryWorks mod moves to its newest release. Among what they bring:
 
-- Wireworks' Boiler turns water into steam, and its machines wear real textures in place of stand-ins, as Craftworks' Assemblers and Refiner do.
+- Wireworks' Boiler turns water into steam, and its machines wear real textures in place of stand-ins, the Steam Engine a flywheel that turns while it burns, as Craftworks' Assemblers and Refiner do.
 - Craftworks' Assemblers take fluids in and out by bucket, at every tier.
 - Pipeworks' pipes and tanks fill and empty from a bucket or any other fluid item.
 - Fieldworks' Harvesters are crafted at a crafting table, and drilling mud brews from clay.

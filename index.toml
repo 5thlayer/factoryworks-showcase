@@ -1059,7 +1059,7 @@ metafile = true
 
 [[files]]
 file = "mods/wireworks.pw.toml"
-hash = "6c9e3595be5b4a3d440bc5930525bb81ca6f30bf7d60592c1312531b01cabe81"
+hash = "6be0e522026d6bd680518e8a04f73fc4a8c6d82eb777b679074072db5c3e9891"
 metafile = true
 
 [[files]]
