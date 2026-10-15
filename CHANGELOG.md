@@ -7,6 +7,8 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- Fieldworks' gallery puts a Wireworks Creative Pole beside its Electric Harvester, which then runs for good instead of stopping when its starting charge is spent.
+
 ## 0.2.0
 
 Every FactoryWorks mod moves to its newest release. Among what they bring:

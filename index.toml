@@ -553,6 +553,14 @@ file = "config/xptome.toml"
 hash = "2de39b141cf399e477f19eb3a9e93f13dd30349cf8ef5f34ccf281713c36685a"
 
 [[files]]
+file = "kubejs/data/factoryworks_showcase/function/fieldworks_gallery/harvester_power.mcfunction"
+hash = "74b57c36bfcb58a229bd6316e391f631e073e445340cedf140b6f61de256e997"
+
+[[files]]
+file = "kubejs/data/fieldworks/tags/function/gallery/harvester_power.json"
+hash = "5b9b5fa4082ec389ce64238e5e7edfcf3e95e06fae291472a2733be154db161a"
+
+[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "9ace9c9b5de9f6faebfc7a53e62c6698aac372de5dbe9fc71c3d74b94857e3b3"
 metafile = true
