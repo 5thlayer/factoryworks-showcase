@@ -23,6 +23,22 @@ The pack is a [packwiz](https://packwiz.infra.link) manifest. packwiz has no rel
 - Check the manifest: `scripts/check.sh`.
 - Build the zip: `packwiz cf export`.
 
+### Playing it locally
+
+Import the pack into the CurseForge app once, as a profile named like the pack, "FactoryWorks Showcase",
+and play it once from there so CurseForge installs its NeoForge. From then on `scripts/launch.py`
+(or skillworks' quicklaunch, in this checkout) plays that profile offline, into its most recent save,
+as this checkout stands:
+
+- the configs and `kubejs/` that `index.toml` lists are copied into the profile;
+- each FactoryWorks mod whose checkout sits beside this one, `../<mod>`, with a jar in `build/libs` at
+  the pack's version or later, replaces the pack's jar, which is set aside in the profile's
+  `.showcase-local/` and put back on the next run.
+
+`--released` plays the pack's own jars, `--dry-run` says what it would copy, swap and run, and
+`SHOWCASE_INSTANCE` names a profile elsewhere. To try a mod's change in the pack, build the mod and
+launch.
+
 Configs ship only as `.json`, `.toml`, `.txt`, `.cfg` or `.properties`: CurseForge warns on import
 about any other file type in a modpack, so `.packwizignore` keeps the rest out.
 
