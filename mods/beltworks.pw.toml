@@ -1,13 +1,13 @@
 name = "Beltworks"
-filename = "beltworks-0.4.3.jar"
+filename = "beltworks-0.5.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2e12965e2ebc144e42adaa4c2b32adab070b05bc"
+hash = "824360ca61acf5e97b5ae34a4062d83dad79e025"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9146975
+file-id = 9209335
 project-id = 1714527

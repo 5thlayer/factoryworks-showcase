@@ -592,7 +592,7 @@ metafile = true
 
 [[files]]
 file = "mods/beltworks.pw.toml"
-hash = "a0e829316067bcbd67bdc60dc0c2b6fd764fd5fbe0361718ceefa684819022ea"
+hash = "2f49aecc8b69b21687484397202b2072df705f7606aec557463b99ad24cb8591"
 metafile = true
 
 [[files]]
@@ -762,7 +762,7 @@ metafile = true
 
 [[files]]
 file = "mods/fieldworks.pw.toml"
-hash = "ec5dbc0bb564d180331aa5f453121e4282c8aca6e0eb253bc6ecfdece312537f"
+hash = "eae7bae2a75a5f7a2a07588efa3fe115bd8c36adfedab8efa26b183c8f80c08c"
 metafile = true
 
 [[files]]
@@ -892,7 +892,7 @@ metafile = true
 
 [[files]]
 file = "mods/kc00ls-pipeworks.pw.toml"
-hash = "9a600c1cb05083d6553eb9c444897ec059667c734361691f9b268b1fe18c0642"
+hash = "0ff7aefb6a2f6cf3466262569d109714ecfa4b0e0652a66dd292dfa0a6e2b942"
 metafile = true
 
 [[files]]
@@ -1067,7 +1067,7 @@ metafile = true
 
 [[files]]
 file = "mods/wireworks.pw.toml"
-hash = "6be0e522026d6bd680518e8a04f73fc4a8c6d82eb777b679074072db5c3e9891"
+hash = "8776a8d5cdd67e161423ae85359dc1dd6095ab7c78133d0da5a26779d02cd9db"
 metafile = true
 
 [[files]]
