@@ -7,11 +7,20 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.3.0
+
 Beltworks, Pipeworks, Wireworks and Fieldworks move to their newest releases. Among what they bring:
 
 - A Beltworks belt climbs only where you set it to, with a new Climb key, unbound by default, that cycles up, down and level. Slopes in a world saved before this version flatten when a tile beside them changes, and must be set again.
 - Each of the four ships a Gallery datapack, off by default, that builds a working scene of each of its features with `/function <mod>:gallery/build`.
 - Fieldworks' gallery puts a Wireworks Creative Pole beside its Electric Harvester, which then runs for good instead of stopping when its starting charge is spent.
+
+### Mods
+
+- Updated Beltworks: `beltworks-0.4.3.jar` → `beltworks-0.5.0.jar`
+- Updated Fieldworks: `fieldworks-0.2.4.jar` → `fieldworks-0.2.6.jar`
+- Updated kc00l's Pipeworks: `pipeworks-0.3.1.jar` → `pipeworks-0.3.2.jar`
+- Updated Wireworks: `wireworks-0.6.2.jar` → `wireworks-0.6.3.jar`
 
 ## 0.2.0
 
