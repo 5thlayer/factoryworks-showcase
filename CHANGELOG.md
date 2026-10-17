@@ -8,7 +8,7 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 ## Unreleased
 
 - Voidworks joins the pack, the seventh FactoryWorks mod: harvest void from the world, carry it downhill between dimensions on Void Dragons, and spend it to upgrade items.
-- Gearworks joins the pack, the eighth FactoryWorks mod: one FE-powered suit whose Gear Grid holds upgrades you level without a cap.
+- Gearworks joins the pack, the eighth FactoryWorks mod: an FE-powered suit whose Gear Grid holds upgrades you level without a cap, and a lance that bores through rock.
 
 ## 0.3.0
 
