@@ -6,7 +6,8 @@
 # beside this one (../groundworks and so on).
 from PIL import Image, ImageDraw, ImageFont
 # Each Module with the row of its 1280x640 cover the strip is centred on, clear of its title band
-MODULES=[('groundworks',50),('beltworks',110),('pipeworks',50),('wireworks',430),('craftworks',50),('fieldworks',100)]
+MODULES=[('groundworks',50),('beltworks',110),('pipeworks',50),('wireworks',430),('craftworks',50),('fieldworks',100),
+         ('voidworks',540)]
 BG=(24,26,32)
 ACCENT=(240,160,50)
 FADE=110
@@ -18,10 +19,13 @@ def strip(m,cy,W,h):
 def make(W,H,out,title_size):
     import os
     img=Image.new('RGBA',(W,H),BG+(255,))
-    bh=int(title_size*2.3); half=(H-bh)//2; sh=half//3; gap=max(2,sh//16)
-    ys=[i*sh for i in range(3)]+[H-half+i*sh for i in range(3)]
-    for (m,cy),y in zip(MODULES,ys):
-        img.alpha_composite(strip(m,cy,W,sh-gap),(0,y+gap//2))
+    bh=int(title_size*2.3); half=(H-bh)//2
+    # The first half of the Modules above the title, the rest below, each half shared out among its own
+    n=(len(MODULES)+1)//2
+    for mods,y0 in ((MODULES[:n],0),(MODULES[n:],H-half)):
+        sh=half//len(mods); gap=max(2,sh//16)
+        for i,(m,cy) in enumerate(mods):
+            img.alpha_composite(strip(m,cy,W,sh-gap),(0,y0+i*sh+gap//2))
     img=Image.alpha_composite(img,Image.new('RGBA',(W,H),BG+(FADE,)))
     band=Image.new('RGBA',(W,H),(0,0,0,0))
     ImageDraw.Draw(band).rectangle([0,half,W,H-half],fill=(16,17,22,235))
