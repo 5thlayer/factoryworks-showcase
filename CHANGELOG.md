@@ -7,6 +7,8 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- Voidworks joins the pack, the seventh FactoryWorks mod: harvest void from the world, carry it downhill between dimensions on Void Dragons, and spend it to upgrade items.
+
 ## 0.3.0
 
 Beltworks, Pipeworks, Wireworks and Fieldworks move to their newest releases. Among what they bring:

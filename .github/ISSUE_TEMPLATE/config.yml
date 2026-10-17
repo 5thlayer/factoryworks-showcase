@@ -18,3 +18,6 @@ contact_links:
   - name: Fieldworks bug
     url: https://github.com/5thlayer/fieldworks/issues
     about: A bug in Fieldworks on its own
+  - name: Voidworks bug
+    url: https://github.com/5thlayer/voidworks/issues
+    about: A bug in Voidworks on its own

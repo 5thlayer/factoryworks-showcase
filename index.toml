@@ -1066,6 +1066,11 @@ hash = "71c920bbbf7464754a2e7beb48e8dae545795cc6c36206623a45188a8072e03b"
 metafile = true
 
 [[files]]
+file = "mods/voidworks.pw.toml"
+hash = "126be4fa2163bdabee6f53c65cabd7fc4b1b960063cabdced37454d1433ffc57"
+metafile = true
+
+[[files]]
 file = "mods/wireworks.pw.toml"
 hash = "8776a8d5cdd67e161423ae85359dc1dd6095ab7c78133d0da5a26779d02cd9db"
 metafile = true

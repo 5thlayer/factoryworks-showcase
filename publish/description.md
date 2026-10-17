@@ -12,6 +12,7 @@ Because creating mods is fun but seeing them integrating in a real pack is even 
 - **Wireworks**: Factorio-style electric poles that power every machine in reach
 - **Craftworks**: ask for an item, and every step is planned, paid up front and crafted over time
 - **Fieldworks**: ore patches, oil fields and the Harvester that works them
+- **Voidworks**: harvest void from the world, carry it downhill between dimensions, and spend it to upgrade items
 
 ## Alongside
 
