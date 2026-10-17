@@ -1,9 +1,19 @@
 # FactoryWorks Showcase
 
-This is the hand-made modpack to showcase all my Factoryworks mods in one place.
+This is the hand-made modpack to showcase all my [FactoryWorks](https://github.com/5thlayer/factoryworks) mods in one place.
 I have added the usual performance/QOL mods along with some well known tech mods released for Minecraft 26.1.2.
 
 Install it from [CurseForge](https://www.curseforge.com/minecraft/modpacks/factoryworks-showcase).
+
+## The suite
+
+- **[Groundworks](https://github.com/5thlayer/groundworks)**: lay whole lines of blocks in one drag, previewed before you click
+- **[Beltworks](https://github.com/5thlayer/beltworks)**: Factorio-style grid belts for any tech mod
+- **[Pipeworks](https://github.com/5thlayer/pipeworks)**: Factorio-style fluid pipes and tanks, where every connected run is one segment holding one fluid
+- **[Wireworks](https://github.com/5thlayer/wireworks)**: Factorio-style electric poles that power every machine in reach
+- **[Craftworks](https://github.com/5thlayer/craftworks)**: ask for an item, and every step is planned, paid up front and crafted over time
+- **[Fieldworks](https://github.com/5thlayer/fieldworks)**: ore patches, oil fields and the Harvester that works them
+- **[Voidworks](https://github.com/5thlayer/voidworks)**: harvest void from the world, carry it downhill between dimensions, and spend it to upgrade items
 
 ## Why?
 

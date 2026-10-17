@@ -6,13 +6,13 @@ Because creating mods is fun but seeing them integrating in a real pack is even 
 
 ## The suite
 
-- **Groundworks**: lay whole lines of blocks in one drag, previewed before you click
-- **Beltworks**: Factorio-style grid belts for any tech mod
-- **Pipeworks**: Factorio-style fluid pipes and tanks, where every connected run is one segment holding one fluid
-- **Wireworks**: Factorio-style electric poles that power every machine in reach
-- **Craftworks**: ask for an item, and every step is planned, paid up front and crafted over time
-- **Fieldworks**: ore patches, oil fields and the Harvester that works them
-- **Voidworks**: harvest void from the world, carry it downhill between dimensions, and spend it to upgrade items
+- **[Groundworks](https://www.curseforge.com/projects/1717892)**: lay whole lines of blocks in one drag, previewed before you click
+- **[Beltworks](https://www.curseforge.com/projects/1714527)**: Factorio-style grid belts for any tech mod
+- **[Pipeworks](https://www.curseforge.com/projects/1730637)**: Factorio-style fluid pipes and tanks, where every connected run is one segment holding one fluid
+- **[Wireworks](https://www.curseforge.com/projects/1721198)**: Factorio-style electric poles that power every machine in reach
+- **[Craftworks](https://www.curseforge.com/projects/1715876)**: ask for an item, and every step is planned, paid up front and crafted over time
+- **[Fieldworks](https://www.curseforge.com/projects/1737485)**: ore patches, oil fields and the Harvester that works them
+- **[Voidworks](https://www.curseforge.com/projects/1742531)**: harvest void from the world, carry it downhill between dimensions, and spend it to upgrade items
 
 ## Alongside
 
