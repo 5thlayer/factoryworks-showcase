@@ -7,8 +7,17 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+Voidworks and Gearworks join the pack, and Groundworks, Pipeworks, Wireworks, Craftworks and Fieldworks move to their newest releases.
+
 - Voidworks joins the pack, the seventh FactoryWorks mod: harvest void from the world, carry it downhill between dimensions on Void Dragons, and spend it to upgrade items.
 - Gearworks joins the pack, the eighth FactoryWorks mod: an FE-powered suit whose Gear Grid holds upgrades you level without a cap, and a lance that bores through rock.
+
+Among what the others bring:
+
+- Groundworks' Assemblies: holding a beacon, conduit, carved pumpkin or obsidian, the preview draws the whole structure it builds, a beacon's pyramid, a conduit's frame, an iron, snow or copper golem or a Nether portal's frame, and one click places all of it, paid from your inventory. `V` steps through a block's Assemblies.
+- Pipeworks' pipes and tanks are iron grey, its Pump and Outlet have textures of their own, storage tanks that touch draw as one tank, and flowing water and lava stop at a pipe instead of washing it away.
+- Craftworks turns more mods' crafting recipes into Assembling recipes: those keyed by an item tag, and those that build on the item they upgrade, such as a factory tier upgrade, which keep that item's data.
+- Clicking a Fieldworks Gallery scene's sign builds it again from the start, so the Harvesters can be watched draining their patches again, the Showcase's Creative Pole and all.
 
 ## 0.3.0
 
