@@ -7,6 +7,8 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.4.0
+
 Voidworks and Gearworks join the pack, and Groundworks, Pipeworks, Wireworks, Craftworks and Fieldworks move to their newest releases.
 
 - Voidworks joins the pack, the seventh FactoryWorks mod: harvest void from the world, carry it downhill between dimensions on Void Dragons, and spend it to upgrade items.
@@ -18,6 +20,16 @@ Among what the others bring:
 - Pipeworks' pipes and tanks are iron grey, its Pump and Outlet have textures of their own, storage tanks that touch draw as one tank, and flowing water and lava stop at a pipe instead of washing it away.
 - Craftworks turns more mods' crafting recipes into Assembling recipes: those keyed by an item tag, and those that build on the item they upgrade, such as a factory tier upgrade, which keep that item's data.
 - Clicking a Fieldworks Gallery scene's sign builds it again from the start, so the Harvesters can be watched draining their patches again, the Showcase's Creative Pole and all.
+
+### Mods
+
+- Added kc00l's Gearworks (`gearworks-0.2.0.jar`)
+- Added Voidworks (`voidworks-0.2.0.jar`)
+- Updated Fieldworks: `fieldworks-0.2.6.jar` → `fieldworks-0.2.7.jar`
+- Updated Groundworks: `groundworks-0.5.11.jar` → `groundworks-0.5.13.jar`
+- Updated kc00l's Craftworks: `craftworks-0.9.1.jar` → `craftworks-0.10.1.jar`
+- Updated kc00l's Pipeworks: `pipeworks-0.3.2.jar` → `pipeworks-0.4.0.jar`
+- Updated Wireworks: `wireworks-0.6.3.jar` → `wireworks-0.6.4.jar`
 
 ## 0.3.0
 
