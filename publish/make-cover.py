@@ -7,7 +7,7 @@
 from PIL import Image, ImageDraw, ImageFont
 # Each Module with the row of its 1280x640 cover the strip is centred on, clear of its title band
 MODULES=[('groundworks',50),('beltworks',110),('pipeworks',50),('wireworks',430),('craftworks',50),('fieldworks',100),
-         ('voidworks',540)]
+         ('voidworks',555),('gearworks',55)]
 BG=(24,26,32)
 ACCENT=(240,160,50)
 FADE=110

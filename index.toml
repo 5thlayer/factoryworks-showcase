@@ -891,6 +891,11 @@ hash = "317b66ee72bbe40fbf5708b40a158d48596440dc123481024e87e6a23be9eb4c"
 metafile = true
 
 [[files]]
+file = "mods/kc00ls-gearworks.pw.toml"
+hash = "889e0d6150a5c000f26b3a4a5d30a7bb76c50ff4f1ea0ab15d9b069d8fceff90"
+metafile = true
+
+[[files]]
 file = "mods/kc00ls-pipeworks.pw.toml"
 hash = "0ff7aefb6a2f6cf3466262569d109714ecfa4b0e0652a66dd292dfa0a6e2b942"
 metafile = true

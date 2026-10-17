@@ -21,3 +21,6 @@ contact_links:
   - name: Voidworks bug
     url: https://github.com/5thlayer/voidworks/issues
     about: A bug in Voidworks on its own
+  - name: Gearworks bug
+    url: https://github.com/5thlayer/gearworks/issues
+    about: A bug in Gearworks on its own

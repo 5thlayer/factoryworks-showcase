@@ -14,6 +14,7 @@ Install it from [CurseForge](https://www.curseforge.com/minecraft/modpacks/facto
 - **[Craftworks](https://github.com/5thlayer/craftworks)**: ask for an item, and every step is planned, paid up front and crafted over time
 - **[Fieldworks](https://github.com/5thlayer/fieldworks)**: ore patches, oil fields and the Harvester that works them
 - **[Voidworks](https://github.com/5thlayer/voidworks)**: harvest void from the world, carry it downhill between dimensions, and spend it to upgrade items
+- **[Gearworks](https://github.com/5thlayer/gearworks)**: one FE-powered suit, a grid of upgrades, and Levels without a cap
 
 ## Why?
 
