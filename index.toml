@@ -1056,6 +1056,11 @@ hash = "3b5a0b8b1feba1f2b18a9fc483000433b48485f71209201e1bfa58f56797f93c"
 metafile = true
 
 [[files]]
+file = "mods/swivel.pw.toml"
+hash = "2a17187ac22859a94898004c39c9b362590b6a4ddf429ef5779708af34b63d0d"
+metafile = true
+
+[[files]]
 file = "mods/titanium.pw.toml"
 hash = "fe3b552adaec3cacc49d575290db766809eb4de7ed9c5f51abc4a2f8bd33f723"
 metafile = true
