@@ -7,6 +7,8 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- Craftworks moves to 0.10.2, so clicking a recipe in EMI's Craftables list or a favorited recipe queues it in the Personal Assembler again, or opens the Crafting Plan naming what is missing; since 0.4.0 the click did nothing.
+
 ## 0.4.0
 
 Voidworks and Gearworks join the pack, and Groundworks, Pipeworks, Wireworks, Craftworks and Fieldworks move to their newest releases.
