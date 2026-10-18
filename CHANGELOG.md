@@ -7,6 +7,12 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.4.2
+
+### Mods
+
+- Added Swivel - Better 3rd Person / Third Person Camera, Free Look & Orbit Camera (Controller Support) (`swivel-neoforge-1.2.0+mc26.1-26.1.2.jar`)
+
 ## 0.4.1
 
 - Craftworks moves to 0.10.2, so clicking a recipe in EMI's Craftables list or a favorited recipe queues it in the Personal Assembler again, or opens the Crafting Plan naming what is missing; since 0.4.0 the click did nothing.
