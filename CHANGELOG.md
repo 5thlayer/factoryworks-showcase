@@ -7,7 +7,13 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.4.1
+
 - Craftworks moves to 0.10.2, so clicking a recipe in EMI's Craftables list or a favorited recipe queues it in the Personal Assembler again, or opens the Crafting Plan naming what is missing; since 0.4.0 the click did nothing.
+
+### Mods
+
+- Updated kc00l's Craftworks: `craftworks-0.10.1.jar` → `craftworks-0.10.2.jar`
 
 ## 0.4.0
 
