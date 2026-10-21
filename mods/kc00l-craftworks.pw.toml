@@ -1,13 +1,13 @@
 name = "kc00l's Craftworks"
-filename = "craftworks-0.10.2.jar"
+filename = "craftworks-0.10.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "36baa5994c3e3b75ab312a356173c4b168a00405"
+hash = "1dadc5999ed0a583ebdc745f2b8c0aa064a0eefe"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9236927
+file-id = 9271787
 project-id = 1715876
