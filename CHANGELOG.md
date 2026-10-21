@@ -7,6 +7,8 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- Craftworks moves to 0.10.5: the craftables list no longer stutters the server, and EMI's Craftables lists every recipe the Personal Assembler can make now, in place of the Assembling tab above the item index.
+
 ## 0.5.0
 
 Groundworks moves to 0.6.0, and Beltworks, Pipeworks, Wireworks, Craftworks and Fieldworks move with it.
