@@ -7,7 +7,13 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.5.1
+
 - Craftworks moves to 0.10.5: the craftables list no longer stutters the server, and EMI's Craftables lists every recipe the Personal Assembler can make now, in place of the Assembling tab above the item index.
+
+### Mods
+
+- Updated kc00l's Craftworks: `craftworks-0.10.4.jar` → `craftworks-0.10.5.jar`
 
 ## 0.5.0
 
