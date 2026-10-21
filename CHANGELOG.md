@@ -7,12 +7,23 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.5.0
+
 Groundworks moves to 0.6.0, and Beltworks, Pipeworks, Wireworks, Craftworks and Fieldworks move with it.
 
 - Rotate and Reverse Rotate turn a block placed against the side of another block, not only one placed on top: a Beltworks feeder or belt end, a Pipeworks outlet, a trapdoor, a hopper or a log now turns a quarter per press there. A block that hangs on a wall, such as a ladder or a wall torch, stays on its wall, and a press that wouldn't change what the preview shows says why on the action bar.
 - A Beltworks slope can climb over water, lava and other fluids.
 - Craftworks' craftables list keeps up in big packs, filling in as it is worked out, and Sophisticated Backpacks' backpacks and upgrades are made in the Assemblers.
 - Fieldworks' Harvesters wear art of their own.
+
+### Mods
+
+- Updated Beltworks: `beltworks-0.5.0.jar` → `beltworks-0.5.2.jar`
+- Updated Fieldworks: `fieldworks-0.2.7.jar` → `fieldworks-0.2.9.jar`
+- Updated Groundworks: `groundworks-0.5.13.jar` → `groundworks-0.6.0.jar`
+- Updated kc00l's Craftworks: `craftworks-0.10.2.jar` → `craftworks-0.10.4.jar`
+- Updated kc00l's Pipeworks: `pipeworks-0.4.0.jar` → `pipeworks-0.4.1.jar`
+- Updated Wireworks: `wireworks-0.6.4.jar` → `wireworks-0.6.5.jar`
 
 ## 0.4.2
 
