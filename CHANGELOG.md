@@ -7,6 +7,9 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- Fieldworks moves to 0.4.0. Two neighbouring drill heads no longer draw a wall between them, and a working Harvester lights its power face (the Burner's firebox or the Electric's coil) and gives off light.
+- Breaking: patches and oil fields keep a clearance of 16 blocks from those of another kind, and the rarer one keeps its place. Land generated after updating is laid out differently, so a seed's patches and oil fields change. Those already in a world stay.
+
 ## 0.6.0
 
 - Fieldworks moves to 0.3.0. Patches now cover every mineral the -works recipes use: redstone, gold and diamond in the Overworld, and quartz, glowstone and netherite on the Nether floor, so a Nether factory has its own resources. Rare patches lie further out, with diamond beyond 1500 blocks and netherite beyond 250 Nether blocks. Coal patches are now richer than iron ones. A Harvester reaches down through air and fluids to the source below it and shows drill heads at work. The pack's config turns on all six new patches.
