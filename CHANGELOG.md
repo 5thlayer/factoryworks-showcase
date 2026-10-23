@@ -7,6 +7,9 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- Fieldworks moves to 0.3.0. Patches now cover every mineral the -works recipes use: redstone, gold and diamond in the Overworld, and quartz, glowstone and netherite on the Nether floor, so a Nether factory has its own resources. Rare patches lie further out, with diamond beyond 1500 blocks and netherite beyond 250 Nether blocks. Coal patches are now richer than iron ones. A Harvester reaches down through air and fluids to the source below it and shows drill heads at work. The pack's config turns on all six new patches.
+- Breaking: oil wells, uranium, diamond and netherite need the Electric Harvester with their recipe held. Uranium and diamond take drilling mud, and netherite takes magma slurry, crafted from a lava bucket and soul soil. A decayed oil well stays at its floor. The new patches appear only in land you haven't explored yet.
+
 ## 0.5.2
 
 - Beltworks moves to 0.5.6 and Groundworks to 0.6.2. Feeders now swing an arm like Factorio's inserters, at their tier's inserter's pace, and never lose what their hand holds; they wear a new look and mark their head and tail. Items on a belt no longer flicker where they overlap.

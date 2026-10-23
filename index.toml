@@ -282,7 +282,7 @@ hash = "06b420c4429aa9e3fea7045b51f529bc4f4ed5ad510ec7045d192351605cfe71"
 
 [[files]]
 file = "config/fieldworks-common.toml"
-hash = "c3525edd5eb9b0357f51ff3a08820133a468d3d84e70dc9e642d55d8af1c433d"
+hash = "4d6559e3c174cb8d43c3fea9bbfed203a4d6aa0458176611b096a22a20cbe993"
 
 [[files]]
 file = "config/fml.toml"
@@ -762,7 +762,7 @@ metafile = true
 
 [[files]]
 file = "mods/fieldworks.pw.toml"
-hash = "30d58ef6afa74fa0741fe45e9406458d7333eafa098250063d10abdf23728e95"
+hash = "3c77d13d8c850257e82e1cac3f6ae0a8b6767b9bec25e29544d6c314c7489714"
 metafile = true
 
 [[files]]

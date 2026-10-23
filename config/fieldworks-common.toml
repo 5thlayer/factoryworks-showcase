@@ -6,4 +6,10 @@
 	stone = true
 	uranium = true
 	sulfur = true
+	redstone = true
+	gold = true
+	diamond = true
+	quartz = true
+	glowstone = true
+	netherite = true
 	oil_field = true
