@@ -7,8 +7,15 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.5.2
+
 - Beltworks moves to 0.5.6 and Groundworks to 0.6.2. Feeders now swing an arm like Factorio's inserters, at their tier's inserter's pace, and never lose what their hand holds; they wear a new look and mark their head and tail. Items on a belt no longer flicker where they overlap.
 - A stretch of belt, or any Groundworks Stretch, is refused whole on ground a claim mod protects, and the blocks it lays count as placed by you. A torch, sign, banner or head aimed at a block's side is previewed as the wall one it places.
+
+### Mods
+
+- Updated Beltworks: `beltworks-0.5.2.jar` → `beltworks-0.5.6.jar`
+- Updated Groundworks: `groundworks-0.6.0.jar` → `groundworks-0.6.2.jar`
 
 ## 0.5.1
 
