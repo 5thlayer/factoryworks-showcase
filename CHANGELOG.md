@@ -7,8 +7,14 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.7.0
+
 - Fieldworks moves to 0.4.0. Two neighbouring drill heads no longer draw a wall between them, and a working Harvester lights its power face (the Burner's firebox or the Electric's coil) and gives off light.
 - Breaking: patches and oil fields keep a clearance of 16 blocks from those of another kind, and the rarer one keeps its place. Land generated after updating is laid out differently, so a seed's patches and oil fields change. Those already in a world stay.
+
+### Mods
+
+- Updated Fieldworks: `fieldworks-0.3.0.jar` → `fieldworks-0.4.0.jar`
 
 ## 0.6.0
 
