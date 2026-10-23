@@ -7,8 +7,14 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.6.0
+
 - Fieldworks moves to 0.3.0. Patches now cover every mineral the -works recipes use: redstone, gold and diamond in the Overworld, and quartz, glowstone and netherite on the Nether floor, so a Nether factory has its own resources. Rare patches lie further out, with diamond beyond 1500 blocks and netherite beyond 250 Nether blocks. Coal patches are now richer than iron ones. A Harvester reaches down through air and fluids to the source below it and shows drill heads at work. The pack's config turns on all six new patches.
 - Breaking: oil wells, uranium, diamond and netherite need the Electric Harvester with their recipe held. Uranium and diamond take drilling mud, and netherite takes magma slurry, crafted from a lava bucket and soul soil. A decayed oil well stays at its floor. The new patches appear only in land you haven't explored yet.
+
+### Mods
+
+- Updated Fieldworks: `fieldworks-0.2.9.jar` → `fieldworks-0.3.0.jar`
 
 ## 0.5.2
 
