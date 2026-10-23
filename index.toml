@@ -592,7 +592,7 @@ metafile = true
 
 [[files]]
 file = "mods/beltworks.pw.toml"
-hash = "a8371ff7d8ea09dcdaa4895d5efb6400338e7f3fab4675a8e8138d3e660612cd"
+hash = "5a8b607261a4a9940c524b3d283c299600f666034176c689a470eec6fd8e750e"
 metafile = true
 
 [[files]]
@@ -822,7 +822,7 @@ metafile = true
 
 [[files]]
 file = "mods/groundworks.pw.toml"
-hash = "87f61fa4bce924dec1fd526900bcb074c2ea56eddaeeb68d41335b722680905f"
+hash = "467e45fc4247bf2dbdf3cd9befedd677a560a90b1bbfc9b4cb9907ec44e3d8ff"
 metafile = true
 
 [[files]]

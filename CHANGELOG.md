@@ -7,6 +7,9 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- Beltworks moves to 0.5.6 and Groundworks to 0.6.2. Feeders now swing an arm like Factorio's inserters, at their tier's inserter's pace, and never lose what their hand holds; they wear a new look and mark their head and tail. Items on a belt no longer flicker where they overlap.
+- A stretch of belt, or any Groundworks Stretch, is refused whole on ground a claim mod protects, and the blocks it lays count as placed by you. A torch, sign, banner or head aimed at a block's side is previewed as the wall one it places.
+
 ## 0.5.1
 
 - Craftworks moves to 0.10.5: the craftables list no longer stutters the server, and EMI's Craftables lists every recipe the Personal Assembler can make now, in place of the Assembling tab above the item index.
