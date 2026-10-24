@@ -7,6 +7,9 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- Groundworks moves to 0.6.3. A door, a bed or a tall plant is now previewed whole, and red when its other half has no room. A chest, a sign, a banner, a bell and the other blocks drawn by their block entity are now previewed too. Once a Stretch's start is stored, Raise and Lower are capped by the world's build height, not your reach.
+- Gearworks moves to 0.2.1. It adds the Reach Upgrade and four Generators that power the Suit: Nuclear, Kinetic, Combustion and Metabolic.
+
 ## 0.8.1
 
 - Wireworks moves to 0.6.7. A pipe now feeds the Boiler and the Reactor their water, and the Steam Engine and the Steam Turbine their steam; before, a pipe connected but moved nothing into them.

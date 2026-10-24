@@ -1,13 +1,13 @@
 name = "Groundworks"
-filename = "groundworks-0.6.2.jar"
+filename = "groundworks-0.6.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b0f8cc7e02356f579f2143ff2163245b8f70f7a2"
+hash = "23f38c44038c431125369bb28ac9ee38d2116d40"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9285870
+file-id = 9314127
 project-id = 1717892

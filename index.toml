@@ -822,7 +822,7 @@ metafile = true
 
 [[files]]
 file = "mods/groundworks.pw.toml"
-hash = "467e45fc4247bf2dbdf3cd9befedd677a560a90b1bbfc9b4cb9907ec44e3d8ff"
+hash = "7a57b789b7d9cb5d41e6285d8e0b136c02f538fb2fd7da15b4c3d3d7cfe8e73c"
 metafile = true
 
 [[files]]
@@ -892,7 +892,7 @@ metafile = true
 
 [[files]]
 file = "mods/kc00ls-gearworks.pw.toml"
-hash = "36fe6edc6c64ea5321531873a5f37ea19d0e22f53f073ad1010b50fb796bdf76"
+hash = "7a027d1c1aaaab7b089d4d89de34152025cf23ad7640e83ed2118bcf575dc05a"
 metafile = true
 
 [[files]]
