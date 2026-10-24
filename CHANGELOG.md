@@ -7,7 +7,13 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.7.1
+
 - Wireworks moves to 0.6.6. A brewing stand also turns a water bottle and a vine into bioresin, so you can make plastic from a vine farm.
+
+### Mods
+
+- Updated Wireworks: `wireworks-0.6.5.jar` → `wireworks-0.6.6.jar`
 
 ## 0.7.0
 
