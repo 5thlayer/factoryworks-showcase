@@ -7,6 +7,8 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- Wireworks moves to 0.6.6. A brewing stand also turns a water bottle and a vine into bioresin, so you can make plastic from a vine farm.
+
 ## 0.7.0
 
 - Fieldworks moves to 0.4.0. Two neighbouring drill heads no longer draw a wall between them, and a working Harvester lights its power face (the Burner's firebox or the Electric's coil) and gives off light.
