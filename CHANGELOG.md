@@ -7,6 +7,8 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- Wireworks moves to 0.6.7. A pipe now feeds the Boiler and the Reactor their water, and the Steam Engine and the Steam Turbine their steam; before, a pipe connected but moved nothing into them.
+
 ## 0.8.0
 
 - Fieldworks moves to 0.5.0. Breaking: uranium, diamond and netherite patch ore can no longer be mined by hand or by another mod's block breaker. Only an Electric Harvester with its Drilling Fluid works them, and a hand break shows what it needs on the action bar.
