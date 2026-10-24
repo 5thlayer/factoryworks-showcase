@@ -7,8 +7,15 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.8.2
+
 - Groundworks moves to 0.6.3. A door, a bed or a tall plant is now previewed whole, and red when its other half has no room. A chest, a sign, a banner, a bell and the other blocks drawn by their block entity are now previewed too. Once a Stretch's start is stored, Raise and Lower are capped by the world's build height, not your reach.
 - Gearworks moves to 0.2.1. It adds the Reach Upgrade and four Generators that power the Suit: Nuclear, Kinetic, Combustion and Metabolic.
+
+### Mods
+
+- Updated Groundworks: `groundworks-0.6.2.jar` → `groundworks-0.6.3.jar`
+- Updated kc00l's Gearworks: `gearworks-0.2.0.jar` → `gearworks-0.2.1.jar`
 
 ## 0.8.1
 
