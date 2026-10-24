@@ -7,8 +7,15 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.8.0
+
 - Fieldworks moves to 0.5.0. Breaking: uranium, diamond and netherite patch ore can no longer be mined by hand or by another mod's block breaker. Only an Electric Harvester with its Drilling Fluid works them, and a hand break shows what it needs on the action bar.
 - Craftworks moves to 0.10.7. Clicking a recipe you can't make that recolours an item from any colour no longer stalls the server, and the Crafting Plan names the item and the dye you're missing, along with the right reason an item is Locked.
+
+### Mods
+
+- Updated Fieldworks: `fieldworks-0.4.0.jar` → `fieldworks-0.5.0.jar`
+- Updated kc00l's Craftworks: `craftworks-0.10.5.jar` → `craftworks-0.10.7.jar`
 
 ## 0.7.1
 
