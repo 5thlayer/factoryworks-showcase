@@ -762,7 +762,7 @@ metafile = true
 
 [[files]]
 file = "mods/fieldworks.pw.toml"
-hash = "5f30e7f25901dd27cd4ad52251b211a95e564a81775743058a0dc7957efa9b31"
+hash = "5de1b37a94b179a74e2da70f52d13398974ada1d3d4154cd5d1715edcb88d126"
 metafile = true
 
 [[files]]
@@ -887,7 +887,7 @@ metafile = true
 
 [[files]]
 file = "mods/kc00l-craftworks.pw.toml"
-hash = "87234b120bc7a7c6e056d0772eaf099724e7188095758221ef6552f84734705f"
+hash = "6799092e72901b5fed9f87dfa1b8a3d0fee799b9c3d5c7c54f4aaa1c29bef965"
 metafile = true
 
 [[files]]
