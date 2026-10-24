@@ -7,7 +7,13 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.8.1
+
 - Wireworks moves to 0.6.7. A pipe now feeds the Boiler and the Reactor their water, and the Steam Engine and the Steam Turbine their steam; before, a pipe connected but moved nothing into them.
+
+### Mods
+
+- Updated Wireworks: `wireworks-0.6.6.jar` → `wireworks-0.6.7.jar`
 
 ## 0.8.0
 
