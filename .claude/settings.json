@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if git submodule status 2>/dev/null | grep -q '^-'; then git submodule update --init --recursive -q && echo \"Initialized the git submodules: the vendored skills in .claude/skills now resolve.\"; fi; true",
+            "timeout": 120,
+            "statusMessage": "Initializing git submodules"
+          }
+        ]
+      }
+    ]
+  }
+}

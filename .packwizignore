@@ -8,6 +8,11 @@ LICENSE
 publish/
 drafts/
 
+# Agent files: Claude Code settings and the vendored skills
+.claude/
+vendor/
+.gitmodules
+
 # Configs of mods no longer in the pack
 config/researchd-*
 config/oritech-*
