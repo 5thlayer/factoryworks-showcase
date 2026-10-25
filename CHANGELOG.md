@@ -7,7 +7,13 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.9.0
+
 - Craftworks moves to 0.11.0. Breaking: the `researchd` Lock source is gone, since Researchd has no release for Minecraft 26.1.2. Every Assembler tier now brews: the brewing stand's mixes, vanilla's and other mods', become Brewed recipes run on FE, with no blaze powder. Packing an item into its storage block and unpacking it takes 1 tick, not 10. With EMI, a plain right click on a Craftables entry queues 5 crafts, and a craft shortcut queues one craft, not two. With nothing queued, the inventory shows how to start a craft.
+
+### Mods
+
+- Updated kc00l's Craftworks: `craftworks-0.10.7.jar` → `craftworks-0.11.0.jar`
 
 ## 0.8.2
 
