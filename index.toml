@@ -214,7 +214,7 @@ hash = "27ccd20b635b177353bf8500e3a4416d1d91bdd6d4365b7e3bfc832e8607cbb7"
 
 [[files]]
 file = "config/craftworks-server.toml"
-hash = "e9df44bfff9d6045b55d44d5f9f372f72daf145d92c2d22e9e066d0a002440f8"
+hash = "771ce5278bf264f786219e45ba1d6b86461bea19a95f67606bcf0bafd78fbfa5"
 
 [[files]]
 file = "config/crash_assistant/config.toml"
@@ -887,7 +887,7 @@ metafile = true
 
 [[files]]
 file = "mods/kc00l-craftworks.pw.toml"
-hash = "6799092e72901b5fed9f87dfa1b8a3d0fee799b9c3d5c7c54f4aaa1c29bef965"
+hash = "1314736039b144a30628077b5b9fcdb3bc0cd39510826157eab915f8ca4c55c3"
 metafile = true
 
 [[files]]

@@ -13,6 +13,10 @@ modRecipes = true
 #Mods' crafting recipes that modRecipes leaves at the crafting table: a namespace keeps
 #all of a mod's, a recipe id just that one. For example ["create", "mekanism:jetpack"].
 modRecipesExcluded = []
+#Whether the brewing stand's mixes, vanilla's and other mods', become Brewed recipes as recipes
+#load (ADR-0026): Assembling recipes in the brewing category that brew from water. Off, brewing
+#stays at the stand. modRecipesExcluded can name a Brewed recipe's id.
+brewingRecipes = true
 
 #The assembler_1 block.
 [assembler_1]

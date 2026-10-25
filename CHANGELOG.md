@@ -7,6 +7,8 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- Craftworks moves to 0.11.0. Breaking: the `researchd` Lock source is gone, since Researchd has no release for Minecraft 26.1.2. Every Assembler tier now brews: the brewing stand's mixes, vanilla's and other mods', become Brewed recipes run on FE, with no blaze powder. Packing an item into its storage block and unpacking it takes 1 tick, not 10. With EMI, a plain right click on a Craftables entry queues 5 crafts, and a craft shortcut queues one craft, not two. With nothing queued, the inventory shows how to start a craft.
+
 ## 0.8.2
 
 - Groundworks moves to 0.6.3. A door, a bed or a tall plant is now previewed whole, and red when its other half has no room. A chest, a sign, a banner, a bell and the other blocks drawn by their block entity are now previewed too. Once a Stretch's start is stored, Raise and Lower are capped by the world's build height, not your reach.
