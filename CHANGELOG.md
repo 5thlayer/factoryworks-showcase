@@ -7,6 +7,11 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- Groundworks moves to 0.7.0. Breaking: Next Assembly is now Next Choice, still on `V`, so a key you rebound must be bound again. A sheet of paper now copies a box of blocks between two corners and pastes it elsewhere, turned with `R` and raised with `G` and `B`; `V` switches a blank sheet to cut, which moves a build with its chests' contents, or a held sheet to paste air, and `U` takes back a copy's last paste.
+- Fieldworks moves to 0.7.0. Breaking: drilling mud is crafted from a water bucket and a clay ball, not brewed, and drilling mud bottles are gone. Crafting magma slurry no longer leaves an empty bucket in the grid.
+- Craftworks moves to 0.11.1: a crafting recipe that takes or makes a filled bucket also gives a Poured recipe, so an Assembler fed through pipes can make magma slurry and drilling mud.
+- Beltworks, Pipeworks and Wireworks move to Groundworks 0.7.0.
+
 ## 0.9.0
 
 - Craftworks moves to 0.11.0. Breaking: the `researchd` Lock source is gone, since Researchd has no release for Minecraft 26.1.2. Every Assembler tier now brews: the brewing stand's mixes, vanilla's and other mods', become Brewed recipes run on FE, with no blaze powder. Packing an item into its storage block and unpacking it takes 1 tick, not 10. With EMI, a plain right click on a Craftables entry queues 5 crafts, and a craft shortcut queues one craft, not two. With nothing queued, the inventory shows how to start a craft.
