@@ -1,0 +1,13 @@
+name = "kc00l's Railworks"
+filename = "railworks-0.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "48fe6fc7554311abcab0ca3117855f872f0196d1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9384878
+project-id = 1774647

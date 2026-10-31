@@ -901,6 +901,11 @@ hash = "af44e4ab7e55bf053d8144fca65a9eef29e243bb31f66423aa30eaec9158e269"
 metafile = true
 
 [[files]]
+file = "mods/kc00ls-railworks.pw.toml"
+hash = "d2256c2856fe9a2ad8a56c8a75be557f060e4d5f0c5bbb73ce40ed1f96d76b47"
+metafile = true
+
+[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "01b7b91829fdaa0283035295e022d76a23e5315cdf74c0926f1670c0135c55f1"
 metafile = true

@@ -11,6 +11,7 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 - Fieldworks moves to 0.7.0. Breaking: drilling mud is crafted from a water bucket and a clay ball, not brewed, and drilling mud bottles are gone. Crafting magma slurry no longer leaves an empty bucket in the grid.
 - Craftworks moves to 0.11.1: a crafting recipe that takes or makes a filled bucket also gives a Poured recipe, so an Assembler fed through pipes can make magma slurry and drilling mud.
 - Beltworks, Pipeworks and Wireworks move to Groundworks 0.7.0.
+- Railworks joins the pack at 0.2.1: automatic monorail trains on raised Pylons, with Burner and Electric Locomotives, Cargo and Fluid cars, and Stations whose hatches send items and fluids from providers to requesters.
 
 ## 0.9.0
 

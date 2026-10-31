@@ -13,6 +13,7 @@ Install it from [CurseForge](https://www.curseforge.com/minecraft/modpacks/facto
 - **[Wireworks](https://github.com/5thlayer/wireworks)**: Factorio-style electric poles that power every machine in reach
 - **[Craftworks](https://github.com/5thlayer/craftworks)**: ask for an item, and every step is planned, paid up front and crafted over time
 - **[Fieldworks](https://github.com/5thlayer/fieldworks)**: ore patches, oil fields and the Harvester that works them
+- **[Railworks](https://github.com/5thlayer/railworks)**: automatic monorail trains that haul items and fluids across your factory
 - **[Voidworks](https://github.com/5thlayer/voidworks)**: harvest void from the world, carry it downhill between dimensions, and spend it to upgrade items
 - **[Gearworks](https://github.com/5thlayer/gearworks)**: an FE-powered suit with a grid of upgrades you level without a cap, and a lance that bores through rock
 
