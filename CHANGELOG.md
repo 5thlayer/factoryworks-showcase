@@ -7,11 +7,23 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.10.0
+
 - Groundworks moves to 0.7.0. Breaking: Next Assembly is now Next Choice, still on `V`, so a key you rebound must be bound again. A sheet of paper now copies a box of blocks between two corners and pastes it elsewhere, turned with `R` and raised with `G` and `B`; `V` switches a blank sheet to cut, which moves a build with its chests' contents, or a held sheet to paste air, and `U` takes back a copy's last paste.
 - Fieldworks moves to 0.7.0. Breaking: drilling mud is crafted from a water bucket and a clay ball, not brewed, and drilling mud bottles are gone. Crafting magma slurry no longer leaves an empty bucket in the grid.
 - Craftworks moves to 0.11.1: a crafting recipe that takes or makes a filled bucket also gives a Poured recipe, so an Assembler fed through pipes can make magma slurry and drilling mud.
 - Beltworks, Pipeworks and Wireworks move to Groundworks 0.7.0.
 - Railworks joins the pack at 0.2.1: automatic monorail trains on raised Pylons, with Burner and Electric Locomotives, Cargo and Fluid cars, and Stations whose hatches send items and fluids from providers to requesters.
+
+### Mods
+
+- Added kc00l's Railworks (`railworks-0.2.1.jar`)
+- Updated Beltworks: `beltworks-0.5.6.jar` → `beltworks-0.5.7.jar`
+- Updated Fieldworks: `fieldworks-0.5.0.jar` → `fieldworks-0.7.0.jar`
+- Updated Groundworks: `groundworks-0.6.3.jar` → `groundworks-0.7.0.jar`
+- Updated kc00l's Craftworks: `craftworks-0.11.0.jar` → `craftworks-0.11.1.jar`
+- Updated kc00l's Pipeworks: `pipeworks-0.4.1.jar` → `pipeworks-0.4.2.jar`
+- Updated Wireworks: `wireworks-0.6.7.jar` → `wireworks-0.6.8.jar`
 
 ## 0.9.0
 
