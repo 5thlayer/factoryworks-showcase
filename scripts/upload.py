@@ -6,7 +6,10 @@
 #   scripts/upload.py <version> [--dry-run] [--site curseforge|github]
 #
 # Each site goes on its own: a failure on one leaves the other, and --site retries just one. A site
-# that already has the version is refused, since a published version never changes.
+# that already has the version is refused, since a published version never changes. Each upload is
+# written down in .uploads.json (ignored), and a site it names for the version is refused too: a file
+# under CurseForge's review is missing from the listing the script checks, so only the record keeps a
+# second run from uploading it again.
 #
 # CurseForge takes $CURSEFORGE_TOKEN, an upload API token, which is never printed. When it is
 # missing, the script runs itself again through `op run --env-file=publish/upload.env`, which fills
@@ -33,6 +36,8 @@ CURSEFORGE_UPLOAD = "https://minecraft.curseforge.com"
 # The upload API can't list a project's files, so the website's own listing, which needs no key, does.
 CURSEFORGE_API = "https://www.curseforge.com"
 REPO = "5thlayer/factoryworks-showcase"
+# What each version's upload left on each site: its CurseForge file id, its GitHub release's URL.
+UPLOADS = ROOT / ".uploads.json"
 
 
 class Refused(Exception):
@@ -83,9 +88,25 @@ def through_op(args):
     os.execvp("op", ["op", "run", f"--env-file={env_file}", "--", sys.executable, __file__, *args])
 
 
+class Record:
+    """The uploads this checkout made, by version and site, kept once the site took them."""
+
+    def __init__(self, path):
+        self.path = path
+        self.data = json.loads(path.read_text()) if path.is_file() else {}
+
+    def get(self, version, site):
+        return self.data.get(version, {}).get(site)
+
+    def put(self, version, site, value):
+        self.data.setdefault(version, {})[site] = value
+        self.path.write_text(json.dumps(self.data, indent=2, sort_keys=True) + "\n")
+
+
 class Release:
-    def __init__(self, version, dry_run):
+    def __init__(self, version, dry_run, record=None):
         self.version, self.dry_run = version, dry_run
+        self.record = record or Record(UPLOADS)
         self.tag = f"v{version}"
         pack = tomllib.loads((ROOT / "pack.toml").read_text())
         self.name = f"{pack['name']} {version}"
@@ -113,6 +134,17 @@ class Release:
     def described(self):
         return f"{self.zip.name} ({len(self.data)} bytes)"
 
+    def recorded(self, site, name):
+        """Refuses a site the record says already took this version; a dry run only says so."""
+        kept = self.record.get(self.version, site)
+        if kept is None:
+            return False
+        message = f"{name} already has {self.version} as {kept}, by {UPLOADS.name}, and a published version never changes."
+        if not self.dry_run:
+            raise Published(message)
+        print(f"{message} A real run refuses it.")
+        return True
+
     def curseforge(self):
         project = os.environ.get("CURSEFORGE_PROJECT_ID", CURSEFORGE_PROJECT)
         upload = os.environ.get("CURSEFORGE_UPLOAD_URL", CURSEFORGE_UPLOAD).rstrip("/")
@@ -122,6 +154,8 @@ class Release:
         # Every upload is a release: CurseForge's app only offers a pack that has one.
         metadata = {"changelog": self.notes, "changelogType": "markdown",
                     "displayName": self.name, "releaseType": "release"}
+        if self.recorded("curseforge", "CurseForge"):
+            return
         if self.dry_run:
             print(f"GET {files}")
             print(f"GET {upload}/api/game/version-types and {upload}/api/game/versions, "
@@ -141,6 +175,7 @@ class Release:
                                         ("file", self.zip.name, "application/zip", self.data)])
         created = send("POST", f"{upload}/api/projects/{project}/upload-file",
                        {**upload_headers, "Content-Type": content_type}, body)
+        self.record.put(self.version, "curseforge", created.get("id"))
         print(f"Uploaded {self.zip.name} to CurseForge as {self.version} ({created.get('id')}); it shows once reviewed.")
 
     def curseforge_files(self, url, headers):
@@ -171,6 +206,8 @@ class Release:
     def github(self):
         create = ["gh", "release", "create", self.tag, str(self.zip), "--repo", REPO,
                   "--verify-tag", "--title", self.name, "--notes-file", "-"]
+        if self.recorded("github", "GitHub"):
+            return
         if self.dry_run:
             print(shlex.join(create))
             print(f"  notes: {len(self.notes)} characters from CHANGELOG.md; file: {self.described()}")
@@ -186,6 +223,7 @@ class Release:
         created = subprocess.run(create, cwd=ROOT, input=self.notes, capture_output=True, text=True)
         if created.returncode:
             raise Refused(f"gh release create failed: {created.stderr.strip()}")
+        self.record.put(self.version, "github", created.stdout.strip())
         print(f"Released {self.zip.name} on GitHub: {created.stdout.strip()}")
 
 

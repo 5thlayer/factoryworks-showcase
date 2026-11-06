@@ -71,6 +71,8 @@ shows that list so far.
    release, with the changelog section as notes on both. `--dry-run` shows what it would send, and
    `--site curseforge` or `--site github` retries one. The CurseForge token is the one the mods
    upload with: `publish/upload.env` names it in 1Password, and `op` asks to be unlocked.
+   Each upload is written down in `.uploads.json`, which stays in this checkout, and a site it
+   names is refused, so a rerun doesn't upload again while CurseForge still reviews the first.
 
 The zip `release.sh` exports is the release: a later export never matches it byte for byte, since
 packwiz writes the mods in a different order each time. So the upload checks it against the tag's
