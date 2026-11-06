@@ -7,8 +7,16 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.11.0
+
 - Craftworks moves to 0.11.5. A world loads again with Just Dire Things beside it: an item whose fluid capability throws while the Poured recipes are made, as the Polymorphic Wand's does before the server's configs load, is taken for no bucket instead of failing the data pack reload.
 - The pack has a title screen of its own: the suite's Modules behind the pack's title, the menu's buttons in its colours, the pack's version, a link to report a bug, and its name and icon on the game's window (FancyMenu, with Melody, a library it needs).
+
+### Mods
+
+- Added FancyMenu (`fancymenu_neoforge_3.9.14_MC_26.1.2.jar`)
+- Added Melody (`melody_neoforge_1.0.16_MC_26.1.1.jar`)
+- Updated kc00l's Craftworks: `craftworks-0.11.3.jar` → `craftworks-0.11.5.jar`
 
 ## 0.10.1
 
