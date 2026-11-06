@@ -34,6 +34,9 @@ The pack is a [packwiz](https://packwiz.infra.link) manifest. packwiz has no rel
 - Add a mod: `packwiz cf add <slug>`. Every jar comes from CurseForge, so the export bundles none.
 - Check the manifest: `scripts/check.sh`.
 - Build the zip: `packwiz cf export`.
+- Redraw the cover, icon and title screen: `python3 publish/make-cover.py`, with the Module checkouts
+  beside this one. The title screen's layout, `config/fancymenu/customization/title_screen.txt`, places
+  its pieces by the sizes the script prints, and `scripts/release.sh` writes each version into it.
 
 ### Playing it locally
 

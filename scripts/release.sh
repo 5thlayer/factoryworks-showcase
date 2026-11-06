@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Release the pack at <version> from HEAD: the changelog's Unreleased entries and the mods changed
-# since the last release become <version>'s section, the manifest checks out, the zip is exported,
-# and the release is committed and tagged v<version> with the zip's sha256.
+# since the last release become <version>'s section, the version goes into pack.toml and the title
+# screen's line naming the pack, the manifest checks out, the zip is exported, and the release is
+# committed and tagged v<version> with the zip's sha256.
 #
 #   scripts/release.sh <version>
 #
@@ -19,17 +20,23 @@ version="${1:-}"
 tag="v$version"
 name="$(sed -n 's/^name = "\(.*\)"$/\1/p' pack.toml)"
 zip="$name-$version.zip"
+# The title screen's layout, whose text line naming the pack says its version
+title_screen="config/fancymenu/customization/title_screen.txt"
+files=(pack.toml index.toml CHANGELOG.md "$title_screen")
 
 [[ -z "$(git status --porcelain)" ]] || fail "the working tree has changes; commit or stash them first."
 ! git rev-parse -q --verify "refs/tags/$tag" > /dev/null || fail "$tag already exists."
 
-# Until the commit, a failure puts both files back, so a failed release leaves nothing behind.
-trap 'git checkout -- pack.toml CHANGELOG.md; git reset -q -- pack.toml CHANGELOG.md' EXIT
+# Until the commit, a failure puts every file back, so a failed release leaves nothing behind.
+trap 'git reset -q -- "${files[@]}"; git checkout -- "${files[@]}"' EXIT
 scripts/changelog.py release "$version"
 sed -i "s/^version = \".*\"$/version = \"$version\"/" pack.toml
-git add pack.toml CHANGELOG.md
+sed -i "s/^\(\s*source = \)$name .*$/\1$name $version/" "$title_screen"
+grep -q "^\s*source = $name $version$" "$title_screen" || fail "$title_screen has no line naming $name."
+packwiz refresh > /dev/null
+git add "${files[@]}"
 scripts/check.sh
-git commit -q -m "$name $version" -- pack.toml CHANGELOG.md
+git commit -q -m "$name $version" -- "${files[@]}"
 trap - EXIT
 
 rm -f "$zip"

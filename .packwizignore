@@ -20,6 +20,7 @@ config/oritech-*
 config/jei/
 config/spark/
 config/sodium-fingerprint.json
+**/fancymenu_data/
 *.bak
 # Generated defaults in file types CurseForge warns about on import
 config/**/*.json5
