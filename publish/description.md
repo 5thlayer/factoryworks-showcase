@@ -12,6 +12,7 @@ Because creating mods is fun but seeing them integrating in a real pack is even 
 - **[Wireworks](https://www.curseforge.com/projects/1721198)**: Factorio-style electric poles that power every machine in reach
 - **[Craftworks](https://www.curseforge.com/projects/1715876)**: ask for an item, and every step is planned, paid up front and crafted over time
 - **[Fieldworks](https://www.curseforge.com/projects/1737485)**: ore patches, oil fields and the Harvester that works them
+- **[Railworks](https://www.curseforge.com/projects/1774647)**: automatic monorail trains that haul items and fluids across your factory
 - **[Voidworks](https://www.curseforge.com/projects/1742531)**: harvest void from the world, carry it downhill between dimensions, and spend it to upgrade items
 - **[Gearworks](https://www.curseforge.com/projects/1739524)**: an FE-powered suit with a grid of upgrades you level without a cap, and a lance that bores through rock
 
