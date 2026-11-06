@@ -6,6 +6,7 @@ mise.toml
 LICENSE
 .github/
 publish/
+.uploads.json
 drafts/
 
 # Agent files: Claude Code settings and the vendored skills

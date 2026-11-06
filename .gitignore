@@ -4,3 +4,5 @@ drafts/
 
 # FancyMenu writes its per-player state here
 **/fancymenu_data
+# What scripts/upload.py uploaded, by version and site
+.uploads.json
