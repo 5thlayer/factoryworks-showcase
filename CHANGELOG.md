@@ -7,6 +7,7 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- Craftworks moves to 0.11.5. A world loads again with Just Dire Things beside it: an item whose fluid capability throws while the Poured recipes are made, as the Polymorphic Wand's does before the server's configs load, is taken for no bucket instead of failing the data pack reload.
 - The pack has a title screen of its own: the suite's Modules behind the pack's title, the menu's buttons in its colours, the pack's version, a link to report a bug, and its name and icon on the game's window (FancyMenu, with Melody, a library it needs).
 
 ## 0.10.1
