@@ -7,6 +7,8 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- The pack has a title screen of its own: the suite's Modules behind the pack's title, the menu's buttons in its colours, the pack's version, a link to report a bug, and its name and icon on the game's window (FancyMenu, with Melody, a library it needs).
+
 ## 0.10.1
 
 - Craftworks moves to 0.11.3. A new server's first start no longer logs a `NullPointerException`, and compacting drawers and upgrades (Functional Storage, Sophisticated Backpacks) fill their block and nugget slots again, since every Storage recipe also gets a plain crafting recipe.

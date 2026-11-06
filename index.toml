@@ -277,6 +277,50 @@ file = "config/fallingtree.json"
 hash = "9704d03d869a866e68c5e783025c8720df6d35e3e76c56080e08e9bf6473a341"
 
 [[files]]
+file = "config/fancymenu/assets/showcase_menu_background.png"
+hash = "8c69e372db1fd861a3174078b089deaf533165cb2abfe32f07f34cf3a923182e"
+
+[[files]]
+file = "config/fancymenu/assets/showcase_menu_band.png"
+hash = "dfab9981b80481b2d2803caa2f310aebcdc1018016f96320585c7aa1472567b7"
+
+[[files]]
+file = "config/fancymenu/assets/showcase_menu_button.png"
+hash = "55f67312627d22f070d9877b37ff9c3b987c21fccdd4031b96171c2439e78cba"
+
+[[files]]
+file = "config/fancymenu/assets/showcase_menu_button_hover.png"
+hash = "03ff721369a6732b2bab0b289a070be7786c32f4ad45a5e9290c989bed9322a7"
+
+[[files]]
+file = "config/fancymenu/assets/showcase_menu_button_off.png"
+hash = "4941271c3cdb1fc807789f403777e35ce467741858c85a1e9f538fd592155116"
+
+[[files]]
+file = "config/fancymenu/assets/showcase_menu_icon_16.png"
+hash = "69f11748386dc0216c29d76992d20152f3eab319815185e5fe6d3f976fd7487e"
+
+[[files]]
+file = "config/fancymenu/assets/showcase_menu_icon_32.png"
+hash = "c1f405c38c7b37a9eb3e3010def8e5ddee37e0a62c7cbf3dbbdb824c2d08f2e4"
+
+[[files]]
+file = "config/fancymenu/assets/showcase_menu_title.png"
+hash = "1d8b18ce54a823ab284fc6459a8704cb64bd1abf9d99de235000b15266cde532"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "4c68ab99c906dd487952f61bf33c0635039a8bbff3f02099e3cd8272fe51b4aa"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen.txt"
+hash = "e6345f8249c6a73b5468bf6f349c3b039c1b28792fcebb201b4d3a847cda1fb4"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "22a2f9519a6e07c4501545ee752c4bd1a11bc7910f23816e6caa5c4ea9cb93fd"
+
+[[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "06b420c4429aa9e3fea7045b51f529bc4f4ed5ad510ec7045d192351605cfe71"
 
@@ -756,6 +800,11 @@ hash = "d7bac0ccfe6d9a530ab4c0d943108d135cfe0e12b281a9a1d2b8419874d76c95"
 metafile = true
 
 [[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "31abf2e6a698b4298bb772ee2c26a5fe61eecde679c73a1ab001c9f5e0259176"
+metafile = true
+
+[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "c2d1674a4d1466e09946819d58436b555256613d2cbcb8f12e26d950bd76d8ef"
 metafile = true
@@ -928,6 +977,11 @@ metafile = true
 [[files]]
 file = "mods/max-health-fix.pw.toml"
 hash = "f70730fc284406a5dd8433526b0c1320d90f77b0c705c95bc0aab932558d37e3"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "9d908f5908e2fc0eca2d556e36ac71419eeb08db43dda6ff9d06cf138c521e06"
 metafile = true
 
 [[files]]
