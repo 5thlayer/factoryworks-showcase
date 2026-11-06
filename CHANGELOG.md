@@ -7,10 +7,19 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.10.1
+
 - Craftworks moves to 0.11.3. A new server's first start no longer logs a `NullPointerException`, and compacting drawers and upgrades (Functional Storage, Sophisticated Backpacks) fill their block and nugget slots again, since every Storage recipe also gets a plain crafting recipe.
 - Fieldworks moves to 0.7.2. `generate.all` in `fieldworks-common.toml` switches off every new patch and oil field at once, for a pack that gets its ores another way, and Jade shows an ore block's remaining amount on a dedicated server too.
 - Gearworks moves to 0.2.3. The Railgun, a held piece of Gear that fires an instant 64-block shot on FE, charged like a crossbow, and the `energyHud` client config's `offsetX` and `offsetY` push the suit's FE reading in from its corner, to clear another mod's HUD.
 - Voidworks moves to 0.2.2. The `gems` Family gains a top Rung, netherite scrap to echo shard, so a pack with no ancient cities can still smith the Resonant Void Siphon, and Jade shows the Voidstone network and the machines' lines on a dedicated server too.
+
+### Mods
+
+- Updated Fieldworks: `fieldworks-0.7.0.jar` → `fieldworks-0.7.2.jar`
+- Updated kc00l's Craftworks: `craftworks-0.11.1.jar` → `craftworks-0.11.3.jar`
+- Updated kc00l's Gearworks: `gearworks-0.2.1.jar` → `gearworks-0.2.3.jar`
+- Updated Voidworks: `voidworks-0.2.0.jar` → `voidworks-0.2.2.jar`
 
 ## 0.10.0
 
