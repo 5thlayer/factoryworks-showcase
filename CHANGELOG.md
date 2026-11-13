@@ -7,6 +7,8 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+- Beltworks moves to 0.5.8. A creative crate, in the Works tab, gives the one item it is set to without end and voids whatever goes into it, the source and the sink of a test belt; an item dragged from JEI or EMI onto its slot sets it, and EMI drops onto a splitter's filter slot as JEI does.
+
 ## 0.11.0
 
 - Craftworks moves to 0.11.5. A world loads again with Just Dire Things beside it: an item whose fluid capability throws while the Poured recipes are made, as the Polymorphic Wand's does before the server's configs load, is taken for no bucket instead of failing the data pack reload.
