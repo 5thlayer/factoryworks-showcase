@@ -7,7 +7,13 @@ adds the mods added, updated and removed, read from the manifest (`scripts/chang
 
 ## Unreleased
 
+## 0.11.1
+
 - Beltworks moves to 0.5.8. A creative crate, in the Works tab, gives the one item it is set to without end and voids whatever goes into it, the source and the sink of a test belt; an item dragged from JEI or EMI onto its slot sets it, and EMI drops onto a splitter's filter slot as JEI does.
+
+### Mods
+
+- Updated Beltworks: `beltworks-0.5.7.jar` → `beltworks-0.5.8.jar`
 
 ## 0.11.0
 

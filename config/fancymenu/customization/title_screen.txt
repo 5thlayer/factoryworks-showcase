@@ -62,7 +62,7 @@ element {
   y = 4
   width = 300
   height = 20
-  source = FactoryWorks Showcase 0.11.0
+  source = FactoryWorks Showcase 0.11.1
   source_mode = direct
   shadow = true
   scale = 1.0

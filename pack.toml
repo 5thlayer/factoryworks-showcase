@@ -1,12 +1,12 @@
 name = "FactoryWorks Showcase"
 author = "5thlayer"
-version = "0.11.0"
+version = "0.11.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "b616b82b5f5e441ebf240219c1fd4e07eb006baa5925b63a60ab7c945f7656d7"
+hash = "fe73da94ae06bb054a728611e48ee94147b76e7ddd8b08022fbdf034429c09be"
 
 [versions]
 minecraft = "26.1.2"
